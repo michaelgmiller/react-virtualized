@@ -32,7 +32,7 @@ function MyComponent ({
 
   // Render a list item or a loading indicator.
   const rowRenderer = ({ index, key, style }) => {
-    let content
+    let content;
 
     if (!isRowLoaded({ index })) {
       content = 'Loading...'
